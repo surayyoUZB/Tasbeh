@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <gradient
+                android:startColor="#00BCD4"
+                android:centerColor="#118EC6"
+                android:endColor="#00BCD4"
+                android:angle="@android:integer/config_longAnimTime"
+                android:type="linear"/>
+            <corners
+                android:bottomRightRadius="50dp"
+                android:bottomLeftRadius="50dp"/>
+        </shape>
+
+    </item>
+
+</layer-list>
